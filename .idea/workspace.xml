@@ -1,0 +1,1323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ee07d42d-c8eb-4e05-935d-7328fe8253f1" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/david/templates/david/monster2.html" afterPath="$PROJECT_DIR$/david/templates/david/monster2.html" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/david/templates/david/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="67" column="10" lean-forward="true" selection-start-line="67" selection-start-column="10" selection-end-line="67" selection-end-column="10" />
+              <folding>
+                <element signature="n#style#0;n#i#0;n#a#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ebdjango2/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="612">
+              <caret line="34" column="27" lean-forward="true" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="django.config" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.ebextensions/django.config">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="7" column="19" lean-forward="true" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="update_fixtures.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/david/management/commands/update_fixtures.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="5" column="32" lean-forward="true" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+              <folding>
+                <element signature="e#0#51#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/david/static/david/index.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1056">
+              <caret line="123" column="1" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="199" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/david/index.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="119" column="0" lean-forward="true" selection-start-line="119" selection-start-column="0" selection-end-line="119" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="spurscontent.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/david/templates/david/spurscontent.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1710">
+              <caret line="95" column="30" lean-forward="false" selection-start-line="95" selection-start-column="30" selection-end-line="95" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="update_cron.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/david/update_cron.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="16" column="63" lean-forward="false" selection-start-line="16" selection-start-column="63" selection-end-line="16" selection-end-column="63" />
+              <folding>
+                <element signature="e#0#45#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="createsu.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/david/management/commands/createsu.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#51#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="monster2.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/david/templates/david/monster2.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="248" column="55161" lean-forward="true" selection-start-line="248" selection-start-column="55161" selection-end-line="248" selection-end-column="55161" />
+              <folding>
+                <element signature="e#1435#1439#0" expanded="true" />
+                <element signature="e#1528#1532#0" expanded="true" />
+                <element signature="e#1538#1542#0" expanded="true" />
+                <element signature="e#1816#1820#0" expanded="true" />
+                <element signature="e#1823#1827#0" expanded="true" />
+                <element signature="e#1828#1834#0" expanded="true" />
+                <element signature="e#1904#1908#0" expanded="true" />
+                <element signature="e#1911#1915#0" expanded="true" />
+                <element signature="e#1916#1922#0" expanded="true" />
+                <element signature="e#1940#1946#0" expanded="true" />
+                <element signature="e#1948#1954#0" expanded="true" />
+                <element signature="e#1963#1969#0" expanded="true" />
+                <element signature="e#1971#1977#0" expanded="true" />
+                <element signature="e#2012#2016#0" expanded="true" />
+                <element signature="e#2019#2023#0" expanded="true" />
+                <element signature="e#2024#2030#0" expanded="true" />
+                <element signature="e#2047#2053#0" expanded="true" />
+                <element signature="e#2055#2061#0" expanded="true" />
+                <element signature="e#2078#2084#0" expanded="true" />
+                <element signature="e#2086#2092#0" expanded="true" />
+                <element signature="e#2120#2124#0" expanded="true" />
+                <element signature="e#2127#2131#0" expanded="true" />
+                <element signature="e#2136#2142#0" expanded="true" />
+                <element signature="e#2165#2171#0" expanded="true" />
+                <element signature="e#2173#2179#0" expanded="true" />
+                <element signature="e#2218#2222#0" expanded="true" />
+                <element signature="e#2225#2229#0" expanded="true" />
+                <element signature="e#2301#2305#0" expanded="true" />
+                <element signature="e#2308#2312#0" expanded="true" />
+                <element signature="e#2313#2319#0" expanded="true" />
+                <element signature="e#2342#2348#0" expanded="true" />
+                <element signature="e#2358#2364#0" expanded="true" />
+                <element signature="e#2770#2775#0" expanded="true" />
+                <element signature="e#2902#2906#0" expanded="true" />
+                <element signature="e#2955#2959#0" expanded="true" />
+                <element signature="e#3062#3067#0" expanded="true" />
+                <element signature="e#3225#3230#0" expanded="true" />
+                <element signature="e#3230#3235#0" expanded="true" />
+                <element signature="e#3276#3280#0" expanded="true" />
+                <element signature="e#3323#3328#0" expanded="true" />
+                <element signature="e#3328#3333#0" expanded="true" />
+                <element signature="e#3426#3430#0" expanded="true" />
+                <element signature="e#3532#3536#0" expanded="true" />
+                <element signature="e#3619#3623#0" expanded="true" />
+                <element signature="e#3656#3660#0" expanded="true" />
+                <element signature="e#3750#3754#0" expanded="true" />
+                <element signature="e#3760#3764#0" expanded="true" />
+                <element signature="e#3783#3787#0" expanded="true" />
+                <element signature="e#3812#3816#0" expanded="true" />
+                <element signature="n#src#0;n#img#0;n#p#2;n#div#1;n#div#0;n#body#0;n#!!top" expanded="true" />
+                <element signature="e#31221#31225#0" expanded="true" />
+                <element signature="e#31307#31311#0" expanded="true" />
+                <element signature="e#31502#31506#0" expanded="true" />
+                <element signature="e#31543#31547#0" expanded="true" />
+                <element signature="e#31656#31660#0" expanded="true" />
+                <element signature="e#31664#31669#0" expanded="true" />
+                <element signature="e#31669#31674#0" expanded="true" />
+                <element signature="e#31784#31788#0" expanded="true" />
+                <element signature="e#31800#31804#0" expanded="true" />
+                <element signature="e#31845#31849#0" expanded="true" />
+                <element signature="e#31958#31962#0" expanded="true" />
+                <element signature="e#31966#31971#0" expanded="true" />
+                <element signature="e#31971#31976#0" expanded="true" />
+                <element signature="e#32086#32090#0" expanded="true" />
+                <element signature="e#32102#32106#0" expanded="true" />
+                <element signature="e#32177#32182#0" expanded="true" />
+                <element signature="e#32206#32210#0" expanded="true" />
+                <element signature="e#32316#32321#0" expanded="true" />
+                <element signature="e#32321#32326#0" expanded="true" />
+                <element signature="e#32376#32380#0" expanded="true" />
+                <element signature="e#32419#32423#0" expanded="true" />
+                <element signature="e#32490#32494#0" expanded="true" />
+                <element signature="e#32500#32504#0" expanded="true" />
+                <element signature="e#32567#32571#0" expanded="true" />
+                <element signature="e#32593#32597#0" expanded="true" />
+                <element signature="e#32611#32615#0" expanded="true" />
+                <element signature="e#32991#32995#0" expanded="true" />
+                <element signature="e#33054#33058#0" expanded="true" />
+                <element signature="e#33069#33074#0" expanded="true" />
+                <element signature="e#33074#33079#0" expanded="true" />
+                <element signature="e#33138#33142#0" expanded="true" />
+                <element signature="e#33151#33156#0" expanded="true" />
+                <element signature="e#33156#33161#0" expanded="true" />
+                <element signature="e#33226#33230#0" expanded="true" />
+                <element signature="e#33242#33246#0" expanded="true" />
+                <element signature="e#33359#33363#0" expanded="true" />
+                <element signature="e#33371#33375#0" expanded="true" />
+                <element signature="e#33394#33398#0" expanded="true" />
+                <element signature="e#33424#33428#0" expanded="true" />
+                <element signature="e#33448#33452#0" expanded="true" />
+                <element signature="n#src#0;n#img#0;n#p#4;n#div#1;n#div#0;n#body#0;n#!!top" expanded="true" />
+                <element signature="e#60888#60892#0" expanded="true" />
+                <element signature="e#60901#60905#0" expanded="true" />
+                <element signature="e#60925#60929#0" expanded="true" />
+                <element signature="e#60983#60987#0" expanded="true" />
+                <element signature="e#60992#60996#0" expanded="true" />
+                <element signature="e#61042#61046#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/david/update_fixtures.py" />
+        <option value="$PROJECT_DIR$/david/templates/david/charts.py" />
+        <option value="$PROJECT_DIR$/david/admin.py" />
+        <option value="$PROJECT_DIR$/david/management/commands/update_cron.py" />
+        <option value="$PROJECT_DIR$/david/management/commands/__init__.py" />
+        <option value="$PROJECT_DIR$/david/models.py" />
+        <option value="$PROJECT_DIR$/.ebextensions/django.config" />
+        <option value="$PROJECT_DIR$/david/views.py" />
+        <option value="$PROJECT_DIR$/david/urls.py" />
+        <option value="$PROJECT_DIR$/david/templates/david/spurscontent.html" />
+        <option value="$PROJECT_DIR$/david/static/david/index.css" />
+        <option value="$PROJECT_DIR$/ebdjango2/settings.py" />
+        <option value="$PROJECT_DIR$/david/management/commands/update_fixtures.py" />
+        <option value="$PROJECT_DIR$/david/update_cron.py" />
+        <option value="$PROJECT_DIR$/david/management/commands/createsu.py" />
+        <option value="$PROJECT_DIR$/david/templates/david/monster2.html" />
+        <option value="$PROJECT_DIR$/static/david/index.css" />
+        <option value="$PROJECT_DIR$/david/templates/david/index.html" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="61" />
+    <option name="y" value="-4" />
+    <option name="width" value="1305" />
+    <option name="height" value="772" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ebdjango2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ebdjango2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ebdjango2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ebdjango2" type="462c0819:PsiDirectoryNode" />
+              <item name=".ebextensions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ebdjango2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ebdjango2" type="462c0819:PsiDirectoryNode" />
+              <item name="david" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ebdjango2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ebdjango2" type="462c0819:PsiDirectoryNode" />
+              <item name="david" type="462c0819:PsiDirectoryNode" />
+              <item name="management" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ebdjango2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ebdjango2" type="462c0819:PsiDirectoryNode" />
+              <item name="david" type="462c0819:PsiDirectoryNode" />
+              <item name="management" type="462c0819:PsiDirectoryNode" />
+              <item name="commands" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ebdjango2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ebdjango2" type="462c0819:PsiDirectoryNode" />
+              <item name="david" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ebdjango2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ebdjango2" type="462c0819:PsiDirectoryNode" />
+              <item name="david" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="david" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ebdjango2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ebdjango2" type="462c0819:PsiDirectoryNode" />
+              <item name="david" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ebdjango2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ebdjango2" type="462c0819:PsiDirectoryNode" />
+              <item name="david" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="david" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ebdjango2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ebdjango2" type="462c0819:PsiDirectoryNode" />
+              <item name="ebdjango2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ebdjango2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ebdjango2" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ebdjango2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ebdjango2" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="david" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/david/templates/david" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/david" />
+      <recent name="$PROJECT_DIR$/david/management/commands" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ee07d42d-c8eb-4e05-935d-7328fe8253f1" name="Default" comment="" />
+      <created>1520387871723</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1520387871723</updated>
+    </task>
+    <task id="LOCAL-00724" summary="fixed path">
+      <created>1527028093832</created>
+      <option name="number" value="00724" />
+      <option name="presentableId" value="LOCAL-00724" />
+      <option name="project" value="LOCAL" />
+      <updated>1527028093832</updated>
+    </task>
+    <task id="LOCAL-00725" summary="fixed path">
+      <created>1527028114239</created>
+      <option name="number" value="00725" />
+      <option name="presentableId" value="LOCAL-00725" />
+      <option name="project" value="LOCAL" />
+      <updated>1527028114239</updated>
+    </task>
+    <task id="LOCAL-00726" summary="fixed path">
+      <created>1527028135816</created>
+      <option name="number" value="00726" />
+      <option name="presentableId" value="LOCAL-00726" />
+      <option name="project" value="LOCAL" />
+      <updated>1527028135816</updated>
+    </task>
+    <task id="LOCAL-00727" summary="fixed path">
+      <created>1527028196536</created>
+      <option name="number" value="00727" />
+      <option name="presentableId" value="LOCAL-00727" />
+      <option name="project" value="LOCAL" />
+      <updated>1527028196536</updated>
+    </task>
+    <task id="LOCAL-00728" summary="fixed path">
+      <created>1527380377565</created>
+      <option name="number" value="00728" />
+      <option name="presentableId" value="LOCAL-00728" />
+      <option name="project" value="LOCAL" />
+      <updated>1527380377565</updated>
+    </task>
+    <task id="LOCAL-00729" summary="fixed path">
+      <created>1527380576115</created>
+      <option name="number" value="00729" />
+      <option name="presentableId" value="LOCAL-00729" />
+      <option name="project" value="LOCAL" />
+      <updated>1527380576115</updated>
+    </task>
+    <task id="LOCAL-00730" summary="fixed path">
+      <created>1527380697757</created>
+      <option name="number" value="00730" />
+      <option name="presentableId" value="LOCAL-00730" />
+      <option name="project" value="LOCAL" />
+      <updated>1527380697757</updated>
+    </task>
+    <task id="LOCAL-00731" summary="fixed path">
+      <created>1527380763642</created>
+      <option name="number" value="00731" />
+      <option name="presentableId" value="LOCAL-00731" />
+      <option name="project" value="LOCAL" />
+      <updated>1527380763642</updated>
+    </task>
+    <task id="LOCAL-00732" summary="fixed path">
+      <created>1527380844355</created>
+      <option name="number" value="00732" />
+      <option name="presentableId" value="LOCAL-00732" />
+      <option name="project" value="LOCAL" />
+      <updated>1527380844355</updated>
+    </task>
+    <task id="LOCAL-00733" summary="fixed path">
+      <created>1527380955584</created>
+      <option name="number" value="00733" />
+      <option name="presentableId" value="LOCAL-00733" />
+      <option name="project" value="LOCAL" />
+      <updated>1527380955584</updated>
+    </task>
+    <task id="LOCAL-00734" summary="fixed path">
+      <created>1527381238382</created>
+      <option name="number" value="00734" />
+      <option name="presentableId" value="LOCAL-00734" />
+      <option name="project" value="LOCAL" />
+      <updated>1527381238383</updated>
+    </task>
+    <task id="LOCAL-00735" summary="fixed path">
+      <created>1527381297425</created>
+      <option name="number" value="00735" />
+      <option name="presentableId" value="LOCAL-00735" />
+      <option name="project" value="LOCAL" />
+      <updated>1527381297425</updated>
+    </task>
+    <task id="LOCAL-00736" summary="fixed path">
+      <created>1527381668362</created>
+      <option name="number" value="00736" />
+      <option name="presentableId" value="LOCAL-00736" />
+      <option name="project" value="LOCAL" />
+      <updated>1527381668362</updated>
+    </task>
+    <task id="LOCAL-00737" summary="fixed path">
+      <created>1527381750868</created>
+      <option name="number" value="00737" />
+      <option name="presentableId" value="LOCAL-00737" />
+      <option name="project" value="LOCAL" />
+      <updated>1527381750868</updated>
+    </task>
+    <task id="LOCAL-00738" summary="fixed path">
+      <created>1527382012060</created>
+      <option name="number" value="00738" />
+      <option name="presentableId" value="LOCAL-00738" />
+      <option name="project" value="LOCAL" />
+      <updated>1527382012060</updated>
+    </task>
+    <task id="LOCAL-00739" summary="fixed path">
+      <created>1527382145628</created>
+      <option name="number" value="00739" />
+      <option name="presentableId" value="LOCAL-00739" />
+      <option name="project" value="LOCAL" />
+      <updated>1527382145628</updated>
+    </task>
+    <task id="LOCAL-00740" summary="fixed path">
+      <created>1527382268664</created>
+      <option name="number" value="00740" />
+      <option name="presentableId" value="LOCAL-00740" />
+      <option name="project" value="LOCAL" />
+      <updated>1527382268664</updated>
+    </task>
+    <task id="LOCAL-00741" summary="fixed path">
+      <created>1527382408744</created>
+      <option name="number" value="00741" />
+      <option name="presentableId" value="LOCAL-00741" />
+      <option name="project" value="LOCAL" />
+      <updated>1527382408744</updated>
+    </task>
+    <task id="LOCAL-00742" summary="fixed path">
+      <created>1527382550326</created>
+      <option name="number" value="00742" />
+      <option name="presentableId" value="LOCAL-00742" />
+      <option name="project" value="LOCAL" />
+      <updated>1527382550326</updated>
+    </task>
+    <task id="LOCAL-00743" summary="fixed path">
+      <created>1527382654487</created>
+      <option name="number" value="00743" />
+      <option name="presentableId" value="LOCAL-00743" />
+      <option name="project" value="LOCAL" />
+      <updated>1527382654487</updated>
+    </task>
+    <task id="LOCAL-00744" summary="fixed path">
+      <created>1527382941198</created>
+      <option name="number" value="00744" />
+      <option name="presentableId" value="LOCAL-00744" />
+      <option name="project" value="LOCAL" />
+      <updated>1527382941198</updated>
+    </task>
+    <task id="LOCAL-00745" summary="fixed path">
+      <created>1527383078189</created>
+      <option name="number" value="00745" />
+      <option name="presentableId" value="LOCAL-00745" />
+      <option name="project" value="LOCAL" />
+      <updated>1527383078189</updated>
+    </task>
+    <task id="LOCAL-00746" summary="fixed path">
+      <created>1527383166342</created>
+      <option name="number" value="00746" />
+      <option name="presentableId" value="LOCAL-00746" />
+      <option name="project" value="LOCAL" />
+      <updated>1527383166342</updated>
+    </task>
+    <task id="LOCAL-00747" summary="fixed path">
+      <created>1527383285718</created>
+      <option name="number" value="00747" />
+      <option name="presentableId" value="LOCAL-00747" />
+      <option name="project" value="LOCAL" />
+      <updated>1527383285719</updated>
+    </task>
+    <task id="LOCAL-00748" summary="fixed path">
+      <created>1527383551320</created>
+      <option name="number" value="00748" />
+      <option name="presentableId" value="LOCAL-00748" />
+      <option name="project" value="LOCAL" />
+      <updated>1527383551320</updated>
+    </task>
+    <task id="LOCAL-00749" summary="fixed path">
+      <created>1527383797082</created>
+      <option name="number" value="00749" />
+      <option name="presentableId" value="LOCAL-00749" />
+      <option name="project" value="LOCAL" />
+      <updated>1527383797082</updated>
+    </task>
+    <task id="LOCAL-00750" summary="fixed path">
+      <created>1527383836837</created>
+      <option name="number" value="00750" />
+      <option name="presentableId" value="LOCAL-00750" />
+      <option name="project" value="LOCAL" />
+      <updated>1527383836837</updated>
+    </task>
+    <task id="LOCAL-00751" summary="fixed path">
+      <created>1527390699755</created>
+      <option name="number" value="00751" />
+      <option name="presentableId" value="LOCAL-00751" />
+      <option name="project" value="LOCAL" />
+      <updated>1527390699755</updated>
+    </task>
+    <task id="LOCAL-00752" summary="fixed path">
+      <created>1527390763432</created>
+      <option name="number" value="00752" />
+      <option name="presentableId" value="LOCAL-00752" />
+      <option name="project" value="LOCAL" />
+      <updated>1527390763432</updated>
+    </task>
+    <task id="LOCAL-00753" summary="fixed path">
+      <created>1527390922726</created>
+      <option name="number" value="00753" />
+      <option name="presentableId" value="LOCAL-00753" />
+      <option name="project" value="LOCAL" />
+      <updated>1527390922726</updated>
+    </task>
+    <task id="LOCAL-00754" summary="fixed path">
+      <created>1527391186924</created>
+      <option name="number" value="00754" />
+      <option name="presentableId" value="LOCAL-00754" />
+      <option name="project" value="LOCAL" />
+      <updated>1527391186924</updated>
+    </task>
+    <task id="LOCAL-00755" summary="fixed path">
+      <created>1527391312876</created>
+      <option name="number" value="00755" />
+      <option name="presentableId" value="LOCAL-00755" />
+      <option name="project" value="LOCAL" />
+      <updated>1527391312876</updated>
+    </task>
+    <task id="LOCAL-00756" summary="fixed path">
+      <created>1527391559495</created>
+      <option name="number" value="00756" />
+      <option name="presentableId" value="LOCAL-00756" />
+      <option name="project" value="LOCAL" />
+      <updated>1527391559495</updated>
+    </task>
+    <task id="LOCAL-00757" summary="fixed path">
+      <created>1527391586683</created>
+      <option name="number" value="00757" />
+      <option name="presentableId" value="LOCAL-00757" />
+      <option name="project" value="LOCAL" />
+      <updated>1527391586683</updated>
+    </task>
+    <task id="LOCAL-00758" summary="fixed path">
+      <created>1527391679347</created>
+      <option name="number" value="00758" />
+      <option name="presentableId" value="LOCAL-00758" />
+      <option name="project" value="LOCAL" />
+      <updated>1527391679347</updated>
+    </task>
+    <task id="LOCAL-00759" summary="fixed path">
+      <created>1527391817972</created>
+      <option name="number" value="00759" />
+      <option name="presentableId" value="LOCAL-00759" />
+      <option name="project" value="LOCAL" />
+      <updated>1527391817972</updated>
+    </task>
+    <task id="LOCAL-00760" summary="fixed path">
+      <created>1527391977423</created>
+      <option name="number" value="00760" />
+      <option name="presentableId" value="LOCAL-00760" />
+      <option name="project" value="LOCAL" />
+      <updated>1527391977423</updated>
+    </task>
+    <task id="LOCAL-00761" summary="fixed path">
+      <created>1527447807117</created>
+      <option name="number" value="00761" />
+      <option name="presentableId" value="LOCAL-00761" />
+      <option name="project" value="LOCAL" />
+      <updated>1527447807117</updated>
+    </task>
+    <task id="LOCAL-00762" summary="fixed path">
+      <created>1527448942751</created>
+      <option name="number" value="00762" />
+      <option name="presentableId" value="LOCAL-00762" />
+      <option name="project" value="LOCAL" />
+      <updated>1527448942751</updated>
+    </task>
+    <task id="LOCAL-00763" summary="fixed path">
+      <created>1527449734417</created>
+      <option name="number" value="00763" />
+      <option name="presentableId" value="LOCAL-00763" />
+      <option name="project" value="LOCAL" />
+      <updated>1527449734417</updated>
+    </task>
+    <task id="LOCAL-00764" summary="fixed path">
+      <created>1527449841240</created>
+      <option name="number" value="00764" />
+      <option name="presentableId" value="LOCAL-00764" />
+      <option name="project" value="LOCAL" />
+      <updated>1527449841240</updated>
+    </task>
+    <task id="LOCAL-00765" summary="fixed path">
+      <created>1527449899780</created>
+      <option name="number" value="00765" />
+      <option name="presentableId" value="LOCAL-00765" />
+      <option name="project" value="LOCAL" />
+      <updated>1527449899780</updated>
+    </task>
+    <task id="LOCAL-00766" summary="fixed path">
+      <created>1527460739015</created>
+      <option name="number" value="00766" />
+      <option name="presentableId" value="LOCAL-00766" />
+      <option name="project" value="LOCAL" />
+      <updated>1527460739015</updated>
+    </task>
+    <task id="LOCAL-00767" summary="fixed path">
+      <created>1527460802479</created>
+      <option name="number" value="00767" />
+      <option name="presentableId" value="LOCAL-00767" />
+      <option name="project" value="LOCAL" />
+      <updated>1527460802479</updated>
+    </task>
+    <task id="LOCAL-00768" summary="fixed path">
+      <created>1527464285359</created>
+      <option name="number" value="00768" />
+      <option name="presentableId" value="LOCAL-00768" />
+      <option name="project" value="LOCAL" />
+      <updated>1527464285359</updated>
+    </task>
+    <task id="LOCAL-00769" summary="fixed path">
+      <created>1527464371689</created>
+      <option name="number" value="00769" />
+      <option name="presentableId" value="LOCAL-00769" />
+      <option name="project" value="LOCAL" />
+      <updated>1527464371689</updated>
+    </task>
+    <task id="LOCAL-00770" summary="fixed path">
+      <created>1527464765098</created>
+      <option name="number" value="00770" />
+      <option name="presentableId" value="LOCAL-00770" />
+      <option name="project" value="LOCAL" />
+      <updated>1527464765098</updated>
+    </task>
+    <task id="LOCAL-00771" summary="fixed path">
+      <created>1527464840793</created>
+      <option name="number" value="00771" />
+      <option name="presentableId" value="LOCAL-00771" />
+      <option name="project" value="LOCAL" />
+      <updated>1527464840793</updated>
+    </task>
+    <task id="LOCAL-00772" summary="fixed path">
+      <created>1527465892036</created>
+      <option name="number" value="00772" />
+      <option name="presentableId" value="LOCAL-00772" />
+      <option name="project" value="LOCAL" />
+      <updated>1527465892036</updated>
+    </task>
+    <option name="localTasksCounter" value="773" />
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="61" y="-4" width="1305" height="772" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20076628" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="R Packages" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="R Graphics" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32882884" sideWeight="0.502682" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32882884" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32882884" sideWeight="0.497318" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.js" />
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.css" />
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.config" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added model" />
+    <MESSAGE value="fixed path" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed path" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/david/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="67" lean-forward="false" selection-start-line="6" selection-start-column="67" selection-end-line="6" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/david/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <element signature="e#24#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ebdjango2/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="27" column="16" lean-forward="false" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/david/templates/david/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2106">
+          <caret line="117" column="0" lean-forward="false" selection-start-line="117" selection-start-column="0" selection-end-line="117" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#i#0;n#a#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.ebextensions/django.config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="17" lean-forward="false" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/david/management/commands/update_fixtures.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/david/templates/david/spurscontent.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="33" column="50" lean-forward="false" selection-start-line="33" selection-start-column="50" selection-end-line="33" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/david/update_cron.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1314">
+          <caret line="77" column="8" lean-forward="false" selection-start-line="77" selection-start-column="8" selection-end-line="77" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/david/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/david/static/david/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3276">
+          <caret line="182" column="12" lean-forward="false" selection-start-line="182" selection-start-column="12" selection-end-line="182" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/david/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="67" lean-forward="false" selection-start-line="6" selection-start-column="67" selection-end-line="6" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/david/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="35" lean-forward="true" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
+          <folding>
+            <element signature="e#24#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/david/templates/david/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2106">
+          <caret line="117" column="0" lean-forward="true" selection-start-line="117" selection-start-column="0" selection-end-line="117" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#i#0;n#a#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/david/management/commands/createsu.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ebdjango2/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="738">
+          <caret line="41" column="33" lean-forward="false" selection-start-line="41" selection-start-column="33" selection-end-line="41" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/david/management/commands/update_fixtures.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/david/templates/david/spurscontent.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="32" lean-forward="true" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/david/update_cron.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1314">
+          <caret line="77" column="8" lean-forward="true" selection-start-line="77" selection-start-column="8" selection-end-line="77" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/david/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/david/static/david/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3204">
+          <caret line="178" column="19" lean-forward="false" selection-start-line="178" selection-start-column="19" selection-end-line="178" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/david/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="41" column="28" lean-forward="false" selection-start-line="41" selection-start-column="28" selection-end-line="41" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/david/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="7" column="29" lean-forward="true" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ebdjango2/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="738">
+          <caret line="41" column="33" lean-forward="false" selection-start-line="41" selection-start-column="33" selection-end-line="41" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/david/management/commands/update_fixtures.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/david/templates/david/spurscontent.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1170">
+          <caret line="65" column="25" lean-forward="false" selection-start-line="65" selection-start-column="25" selection-end-line="65" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/david/static/david/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2736">
+          <caret line="152" column="22" lean-forward="false" selection-start-line="152" selection-start-column="22" selection-end-line="152" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/david/update_cron.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/david/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/david/management/commands/createsu.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/david/static/david/indexnav.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/david/static/david/indextab.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/david/templates/david/charts.py" />
+    <entry file="file://$PROJECT_DIR$/david/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="7" column="29" lean-forward="false" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/david/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/david/management/commands/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/david/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/david/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="6" column="67" lean-forward="false" selection-start-line="6" selection-start-column="67" selection-end-line="6" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/david/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="19" lean-forward="false" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+          <folding>
+            <element signature="e#24#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/david/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ebdjango2/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="34" column="27" lean-forward="true" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/david/templates/david/monster.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84042">
+          <caret line="79" column="0" lean-forward="false" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/david/templates/david/spurscontent.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1710">
+          <caret line="95" column="30" lean-forward="false" selection-start-line="95" selection-start-column="30" selection-end-line="95" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.ebextensions/django.config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="19" lean-forward="true" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/david/management/commands/update_fixtures.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="32" lean-forward="true" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/david/update_cron.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="63" lean-forward="false" selection-start-line="16" selection-start-column="63" selection-end-line="16" selection-end-column="63" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/david/management/commands/createsu.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/david/templates/david/monster2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="248" column="55161" lean-forward="true" selection-start-line="248" selection-start-column="55161" selection-end-line="248" selection-end-column="55161" />
+          <folding>
+            <element signature="e#1435#1439#0" expanded="true" />
+            <element signature="e#1528#1532#0" expanded="true" />
+            <element signature="e#1538#1542#0" expanded="true" />
+            <element signature="e#1816#1820#0" expanded="true" />
+            <element signature="e#1823#1827#0" expanded="true" />
+            <element signature="e#1828#1834#0" expanded="true" />
+            <element signature="e#1904#1908#0" expanded="true" />
+            <element signature="e#1911#1915#0" expanded="true" />
+            <element signature="e#1916#1922#0" expanded="true" />
+            <element signature="e#1940#1946#0" expanded="true" />
+            <element signature="e#1948#1954#0" expanded="true" />
+            <element signature="e#1963#1969#0" expanded="true" />
+            <element signature="e#1971#1977#0" expanded="true" />
+            <element signature="e#2012#2016#0" expanded="true" />
+            <element signature="e#2019#2023#0" expanded="true" />
+            <element signature="e#2024#2030#0" expanded="true" />
+            <element signature="e#2047#2053#0" expanded="true" />
+            <element signature="e#2055#2061#0" expanded="true" />
+            <element signature="e#2078#2084#0" expanded="true" />
+            <element signature="e#2086#2092#0" expanded="true" />
+            <element signature="e#2120#2124#0" expanded="true" />
+            <element signature="e#2127#2131#0" expanded="true" />
+            <element signature="e#2136#2142#0" expanded="true" />
+            <element signature="e#2165#2171#0" expanded="true" />
+            <element signature="e#2173#2179#0" expanded="true" />
+            <element signature="e#2218#2222#0" expanded="true" />
+            <element signature="e#2225#2229#0" expanded="true" />
+            <element signature="e#2301#2305#0" expanded="true" />
+            <element signature="e#2308#2312#0" expanded="true" />
+            <element signature="e#2313#2319#0" expanded="true" />
+            <element signature="e#2342#2348#0" expanded="true" />
+            <element signature="e#2358#2364#0" expanded="true" />
+            <element signature="e#2770#2775#0" expanded="true" />
+            <element signature="e#2902#2906#0" expanded="true" />
+            <element signature="e#2955#2959#0" expanded="true" />
+            <element signature="e#3062#3067#0" expanded="true" />
+            <element signature="e#3225#3230#0" expanded="true" />
+            <element signature="e#3230#3235#0" expanded="true" />
+            <element signature="e#3276#3280#0" expanded="true" />
+            <element signature="e#3323#3328#0" expanded="true" />
+            <element signature="e#3328#3333#0" expanded="true" />
+            <element signature="e#3426#3430#0" expanded="true" />
+            <element signature="e#3532#3536#0" expanded="true" />
+            <element signature="e#3619#3623#0" expanded="true" />
+            <element signature="e#3656#3660#0" expanded="true" />
+            <element signature="e#3750#3754#0" expanded="true" />
+            <element signature="e#3760#3764#0" expanded="true" />
+            <element signature="e#3783#3787#0" expanded="true" />
+            <element signature="e#3812#3816#0" expanded="true" />
+            <element signature="n#src#0;n#img#0;n#p#2;n#div#1;n#div#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="e#31221#31225#0" expanded="true" />
+            <element signature="e#31307#31311#0" expanded="true" />
+            <element signature="e#31502#31506#0" expanded="true" />
+            <element signature="e#31543#31547#0" expanded="true" />
+            <element signature="e#31656#31660#0" expanded="true" />
+            <element signature="e#31664#31669#0" expanded="true" />
+            <element signature="e#31669#31674#0" expanded="true" />
+            <element signature="e#31784#31788#0" expanded="true" />
+            <element signature="e#31800#31804#0" expanded="true" />
+            <element signature="e#31845#31849#0" expanded="true" />
+            <element signature="e#31958#31962#0" expanded="true" />
+            <element signature="e#31966#31971#0" expanded="true" />
+            <element signature="e#31971#31976#0" expanded="true" />
+            <element signature="e#32086#32090#0" expanded="true" />
+            <element signature="e#32102#32106#0" expanded="true" />
+            <element signature="e#32177#32182#0" expanded="true" />
+            <element signature="e#32206#32210#0" expanded="true" />
+            <element signature="e#32316#32321#0" expanded="true" />
+            <element signature="e#32321#32326#0" expanded="true" />
+            <element signature="e#32376#32380#0" expanded="true" />
+            <element signature="e#32419#32423#0" expanded="true" />
+            <element signature="e#32490#32494#0" expanded="true" />
+            <element signature="e#32500#32504#0" expanded="true" />
+            <element signature="e#32567#32571#0" expanded="true" />
+            <element signature="e#32593#32597#0" expanded="true" />
+            <element signature="e#32611#32615#0" expanded="true" />
+            <element signature="e#32991#32995#0" expanded="true" />
+            <element signature="e#33054#33058#0" expanded="true" />
+            <element signature="e#33069#33074#0" expanded="true" />
+            <element signature="e#33074#33079#0" expanded="true" />
+            <element signature="e#33138#33142#0" expanded="true" />
+            <element signature="e#33151#33156#0" expanded="true" />
+            <element signature="e#33156#33161#0" expanded="true" />
+            <element signature="e#33226#33230#0" expanded="true" />
+            <element signature="e#33242#33246#0" expanded="true" />
+            <element signature="e#33359#33363#0" expanded="true" />
+            <element signature="e#33371#33375#0" expanded="true" />
+            <element signature="e#33394#33398#0" expanded="true" />
+            <element signature="e#33424#33428#0" expanded="true" />
+            <element signature="e#33448#33452#0" expanded="true" />
+            <element signature="n#src#0;n#img#0;n#p#4;n#div#1;n#div#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="e#60888#60892#0" expanded="true" />
+            <element signature="e#60901#60905#0" expanded="true" />
+            <element signature="e#60925#60929#0" expanded="true" />
+            <element signature="e#60983#60987#0" expanded="true" />
+            <element signature="e#60992#60996#0" expanded="true" />
+            <element signature="e#61042#61046#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/david/static/david/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1056">
+          <caret line="123" column="1" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="199" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/david/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="119" column="0" lean-forward="true" selection-start-line="119" selection-start-column="0" selection-end-line="119" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/david/templates/david/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="67" column="10" lean-forward="true" selection-start-line="67" selection-start-column="10" selection-end-line="67" selection-end-column="10" />
+          <folding>
+            <element signature="n#style#0;n#i#0;n#a#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

@@ -1,0 +1,98 @@
+{% extends 'david/index.html' %}
+
+{% block content %}
+            <table>
+                <caption>Recent Results</caption>
+                <tr>
+                    <th>Opponent</th>
+                    <th>Date</th>
+                    <th>Result</th>
+                </tr>
+                {% for fixture in last_three %}
+            <tr>
+            <td><div class="name">
+                {{ fixture.opponent }}
+            </div></td>
+            <td><div class="matchdate">
+                {{ fixture.date|date:"D - n/j - fa" }}
+            </div></td>
+            <td>
+                {% if fixture.result == "Win" %}
+                    <div class="win">
+                        {% elif fixture.result == "Draw" %}
+                        <div class="draw">
+                            {% elif fixture.result == "Loss" %}
+                            <div class="loss">
+                                {% else %}
+                                <div class="noresult">
+                                    {% endif %}
+                {{ fixture.result }}
+            <span class="tooltiptext">
+                {{ fixture.homeTeamName }} :
+                <b>{{ fixture.goalsHomeTeam }}</b> <br>
+                {{ fixture.awayTeamName }} :
+                <b>{{ fixture.goalsAwayTeam }}</b>
+            </span>
+            </div></td>
+            </tr>
+    {% endfor %}
+                {% if next %}
+            <tr>
+                <td><div class="name">
+                    {{ next.opponent }}
+                </div></td>
+                <td><div class="matchdate">
+                    {{ next.date|date:"D - n/j - fa"}}
+            </div></td>
+                <td><div class="matchresult">
+                    {{ next.result }}
+                </div></td>
+            </tr>
+                {% endif %}
+            </table>
+
+        <table>
+            <caption>Table Position</caption>
+        <tr>
+            <th>Name</th>
+            <th>Goal Diff.</th>
+            <th>Points</th>
+            <th>Played</th>
+            <th>Crest</th>
+        </tr>
+            {% for stand in table %}
+                {% if stand.teamName == "Spurs" %}
+                <tr class="spurs">
+                    {% else %}
+                <tr class="teamName">
+                    {% endif %}
+            <td>
+               {{ stand.teamName }}
+           </td>
+            <td><div class="goalDifference">
+                {{ stand.goalDifference }}
+            </div></td>
+            <td><div class="points">
+                {{ stand.points }}
+            </div></td>
+            <td><div class="matchesPlayed">
+                {{ stand.matchesPlayed }}
+            </div></td>
+            <td><div class="crestURL">
+                <img src={{ stand.crestURL }} alt="Team Crest" height="20" width="20">
+            </div></td>
+        </tr>
+            {% endfor %}
+            </table>
+
+            <div id="chart">
+           <embed type="image/svg+xml" src= {{ chart|safe }} />
+            </div>
+
+{% endblock %}
+
+{% block monster %}
+
+{% include "david/monster2.html" %}
+
+{% endblock %}

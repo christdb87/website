@@ -1,0 +1,199 @@
+html, body {
+  background-color: #f2f2f2;
+}
+
+ #colorbar {
+float:left;
+width: 100%;
+font-family: "calibri";
+background-color: coral;
+padding: 0px;
+color:white;
+min-height: 10px;
+}
+
+  #description {
+float: left;
+font-size: 18px;
+background-color: coral;
+text-align: center;
+padding-left: 20px;
+padding-right: 20px;
+margin-bottom: 100px;
+width: 20%;
+margin-top: 100px;
+color: white;
+}
+
+#navbar {
+  overflow: hidden;
+  background-color: #333;
+  z-index: 999999;
+  height: 50px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  text-align: center;
+}
+
+#navbar p {
+  float: left;
+  display: inline-block;
+  color: #f2f2f2;
+  text-decoration: none;
+  font-size: 22px;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+#navbar a {
+  float: right;
+  color: #f2f2f2;
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px 16px 32px 16px;
+  font-size: 17px;
+}
+
+#navbar a:hover {
+  background-color: #4d4d4d;
+  color: black;
+}
+
+.tablink {
+  background-color: #333;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 0px 16px 0px 16px;
+  font-size: 22px;
+  width: 10%;
+  height: 50px;
+  color: white;
+}
+
+.tablink:hover {
+  background-color: #4d4d4d;
+  color: black;
+}
+
+.tablink:active {
+  background-color: #4d4d4d;
+  color: black;
+}
+
+.tabcontent {
+  display: none;
+  height: 100%;
+  padding: 50px 0px 10px 0px;
+  width: 100%;
+  background-color: #f2f2f2;
+  animation: fadeEffect 1s;
+  -webkit-animation: fadeEffect 1s;
+}
+
+@-webkit-keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 33.33% 33.33% 33.33%;
+  background-color: #f2f2f2;
+  padding: 10px, 10px, 10px, 10px;
+  width: 100%;
+}
+
+.grid-item {
+  background-color: #f2f2f2;
+  border: none;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+#dave {
+border-radius: 20%;
+max-height: 250px;
+}
+
+.grid-item p {
+font-size:16px;
+padding:20px, 20px, 20px, 20px;
+}
+
+.spurs {
+font-size: 21px;
+color: darkblue;
+background: lightblue;
+}
+
+table .win {
+color: green;
+}
+
+table .loss {
+color: red;
+}
+
+table .draw {
+color: blue;
+}
+
+
+table {
+width: 50%;
+margin: 0 auto;
+}
+
+th, tr, td {
+height: 30px;
+text-align: center;
+}
+
+#chart {
+width:75%;
+margin: 0 auto;
+}
+
+#Contact {
+margin: 0 auto;
+}
+
+tr:nth-child(even) {background-color: #f5f5f5;}
+
+.tooltiptext {
+    visibility: hidden;
+    width: 200px;
+    background-color: coral;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+    left: 52%;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+
+.win:hover .tooltiptext {
+    visibility: visible;
+}
+
+.loss:hover .tooltiptext {
+    visibility: visible;
+}
+
+.draw:hover .tooltiptext {
+    visibility: visible;
+}
+

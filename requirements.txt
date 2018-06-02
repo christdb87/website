@@ -1,0 +1,4 @@
+Django==1.11.9
+MySQL-python==1.2.5
+pygal==2.4.0
+django-cron==0.5.0
