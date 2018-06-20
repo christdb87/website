@@ -52,7 +52,38 @@
 <script src="{% static 'venezchart/highchart-binding-0.5.0/highchart.js' %}"></script>
 
 <meta name="viewport" content="width=device-width", initial-scale="1.0">
-
+<style>
+    @media only screen and (max-width: 600px) {
+    #navbar a {
+        float: left;
+        height: 10%;
+        padding: 0;
+        display: contents;
+        font-size: 15px;
+    }
+    #navbar p {
+    float: left;
+    padding: 0;
+    display: contents;
+    font-size: 12px;
+    }
+    #navbar {
+    height: auto;
+    overflow: auto;
+    }
+    .tablink {
+    float: right;
+    font-size: 14px;
+    padding: 0;
+    display: contents;
+    }
+    #colorbar {
+    display: none;
+    }
+    .grid-item {
+    font-size: 20px;
+    }
+</style>
 </head>
     <body>
 
@@ -63,9 +94,9 @@
 	    <button class="tablink" onclick="openPage('Contact', this, '#f2f2f2')">Spurs</button>
         <button class="tablink" onclick="openPage('About', this, '#f2f2f2')">Markdown</button>
       <!--  <button class="tablink" onclick="location.href='{% url 'monster' %}';">Markdown </button> -->
-        <a href=https://github.com/christdb87><i class="fa fa-github" style="font-size:24px;color:white;text-shadow:2px 2px 4px #000000;"></i></a>
-        <a href=https://www.linkedin.com/in/david-christ-5b916b153/><i class="fa fa-linkedin" style="font-size:24px;color:white;text-shadow:2px 2px 4px #000000;"></i></a>
-        <a href="mailto:christdb87@gmail.com"><i class="fa fa-envelope-open" style="font-size:24px;color:white;text-shadow:2px 2px 4px #000000;"></i></a>
+        <a href=https://github.com/christdb87><i class="fa fa-github" style="color:white;text-shadow:2px 2px 4px #000000;"></i></a>
+        <a href=https://www.linkedin.com/in/david-christ-5b916b153/><i class="fa fa-linkedin" style="color:white;text-shadow:2px 2px 4px #000000;"></i></a>
+        <a href="mailto:christdb87@gmail.com"><i class="fa fa-envelope-open" style="color:white;text-shadow:2px 2px 4px #000000;"></i></a>
 	</div>
 
 <div id="Home" class="tabcontent">	
