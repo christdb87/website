@@ -58,7 +58,7 @@ class Command(BaseCommand):
                                        awayTeamName=fix[i]['awayTeam']['name'],
                                        goalsAwayTeam=fix[i]['score']['fullTime']['awayTeam'],
                                        goalsHomeTeam=fix[i]['score']['fullTime']['homeTeam'],
-                                       competitionId=fix[i]['competitionId'],
+                                       competitionId=fix[i]['season']['competitionId']['id'],
                                        name=fix[i]['homeTeam']['name'] + " " + fix[i]['awayTeam']['name'],
                                        opponent=opponent,
                                        gameType=gameType,

@@ -16,6 +16,7 @@ def index(request):
     def get_item(dictionary, key):
         return dictionary.get(key)
 
+    fixtures18 = dict(Fixture.objects.values_list('matchday', 'result').filter(competitionId=151))
     fixtures17 = dict(Fixture.objects.values_list('matchday', 'result').filter(competitionId=445))
     fixtures16 = dict(Fixture.objects.values_list('matchday', 'result').filter(competitionId=426))
     fixtures15 = dict(Fixture.objects.values_list('matchday', 'result').filter(competitionId=398))
@@ -31,6 +32,8 @@ def index(request):
     points_14 = {}
     point_total_13 = 0
     points_13 = {}
+    point_total_18 = 0
+    points_18 = 0
 
     def getpoints(fix, pts, total):
         for i, val in fix.iteritems():
@@ -45,6 +48,7 @@ def index(request):
             else:
                 pts.update({i: total})
 
+    getpoints(fixtures18, points_18, point_total_18)
     getpoints(fixtures17, points_17, point_total_17)
     getpoints(fixtures16, points_16, point_total_16)
     getpoints(fixtures15, points_15, point_total_15)
@@ -54,7 +58,8 @@ def index(request):
     chart = pygal.Line(style=DarkStyle,
                        x_title="Matchday",
                        height=500)
-    chart.title = "Spurs points over past 4 seasons"
+    chart.title = "Spurs points over past 5 seasons"
+    chart.add("2018", points_18.values())
     chart.add("2017", points_17.values())
     chart.add("2016", points_16.values())
     chart.add("2015", points_15.values())
@@ -62,13 +67,13 @@ def index(request):
     chart.x_labels = range(1, 39)
     pts_chart = chart.render_data_uri()
 
-    matches17 = Fixture.objects.filter(competitionId=445).order_by('matchday')
-    last_three = matches17.filter(status='FINISHED').order_by('-matchday')[:3]
+    matches18 = Fixture.objects.filter(competitionId=151).order_by('matchday')
+    last_three = matches18.filter(status='FINISHED').order_by('-matchday')[:3]
     last_three_asc = reversed(last_three)
 
-    if matches17.filter(status='TIMED').count() > 0:
-        next_game = matches17.filter(status='TIMED')[0]
-    else: next_game = matches17.filter(status='TIMED')
+    if matches18.filter(status='TIMED').count() > 0:
+        next_game = matches18.filter(status='TIMED')[0]
+    else: next_game = matches18.filter(status='TIMED')
 
     spurspos = Standing.objects.filter(teamName='Spurs')[0].position
     table = Standing.objects.filter(position__in=range(spurspos - 3, spurspos + 4))
