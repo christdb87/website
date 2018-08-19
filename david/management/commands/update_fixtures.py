@@ -90,7 +90,7 @@ class Command(BaseCommand):
                     result = 'Draw'
                 elif fix[i]['score']['fullTime']['homeTeam'] > fix[i]['score']['fullTime']['awayTeam'] and gameType == 'Home':
                     result = 'Win'
-                elif fix[i]['score']['fullTime']['awayTeam'] > fix[i]['score']['fullTime']['awayTeam'] and gameType == 'Away':
+                elif fix[i]['score']['fullTime']['awayTeam'] > fix[i]['score']['fullTime']['homeTeam'] and gameType == 'Away':
                     result = 'Win'
                 else:
                     result = 'Loss'
