@@ -55,7 +55,7 @@ class UpdateCron(CronJobBase):
                     result = 'Not Played'
                 elif fix[i]['score']['fullTime']['awayTeam'] == fix[i]['score']['fullTime']['homeTeam']:
                     result = 'Draw'
-                elif fix[i]['score']['fullTime']['homeTeam'] > fix[i]['result']['goalsAwayTeam'] and gameType == 'Home':
+                elif fix[i]['score']['fullTime']['homeTeam'] > fix[i]['score']['fullTime']['awayTeam'] and gameType == 'Home':
                     result = 'Win'
                 elif fix[i]['result']['goalsAwayTeam'] > fix[i]['score']['fullTime']['awayTeam'] and gameType == 'Away':
                     result = 'Win'
