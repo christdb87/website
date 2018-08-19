@@ -75,7 +75,7 @@ def index(request):
         next_game = matches18.filter(status='TIMED')[0]
     else: next_game = matches18.filter(status='TIMED')
 
-    spurspos = Standing.objects.filter(teamName='Spurs')[0].position
+    spurspos = Standing.objects.filter(teamName='Tottenham Hotspur FC')[0].position
     table = Standing.objects.filter(position__in=range(spurspos - 3, spurspos + 4))
 
     return render(request, 'david/spurscontent.html', {'last_three': last_three_asc,
