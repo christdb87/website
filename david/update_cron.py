@@ -1,6 +1,7 @@
 from django_cron import CronJobBase, Schedule
 from david.models import Standing
 from david.models import Fixture
+from datetime import datetime
 import httplib
 import json
 import os

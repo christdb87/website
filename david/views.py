@@ -48,12 +48,12 @@ def index(request):
             else:
                 pts.update({i: total})
 
-    getpoints(fixtures18, points_18, point_total_18)
     getpoints(fixtures17, points_17, point_total_17)
     getpoints(fixtures16, points_16, point_total_16)
     getpoints(fixtures15, points_15, point_total_15)
     getpoints(fixtures14, points_14, point_total_14)
     getpoints(fixtures13, points_13, point_total_13)
+    getpoints(fixtures18, points_18, point_total_18)
 
     chart = pygal.Line(style=DarkStyle,
                        x_title="Matchday",
