@@ -33,7 +33,7 @@ def index(request):
     point_total_13 = 0
     points_13 = {}
     point_total_18 = 0
-    points_18 = 0
+    points_18 = {}
 
     def getpoints(fix, pts, total):
         for i, val in fix.iteritems():
