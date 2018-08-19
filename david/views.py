@@ -20,18 +20,12 @@ def index(request):
     fixtures17 = dict(Fixture.objects.values_list('matchday', 'result').filter(competitionId=445))
     fixtures16 = dict(Fixture.objects.values_list('matchday', 'result').filter(competitionId=426))
     fixtures15 = dict(Fixture.objects.values_list('matchday', 'result').filter(competitionId=398))
-    fixtures14 = dict(Fixture.objects.values_list('matchday', 'result').filter(competitionId=354))
-    fixtures13 = dict(Fixture.objects.values_list('matchday', 'result').filter(competitionId=341))
     point_total_17 = 0
     points_17 = {}
     point_total_16 = 0
     points_16 = {}
     point_total_15 = 0
     points_15 = {}
-    point_total_14 = 0
-    points_14 = {}
-    point_total_13 = 0
-    points_13 = {}
     point_total_18 = 0
     points_18 = {}
 
@@ -51,8 +45,6 @@ def index(request):
     getpoints(fixtures17, points_17, point_total_17)
     getpoints(fixtures16, points_16, point_total_16)
     getpoints(fixtures15, points_15, point_total_15)
-    getpoints(fixtures14, points_14, point_total_14)
-    getpoints(fixtures13, points_13, point_total_13)
     getpoints(fixtures18, points_18, point_total_18)
 
     chart = pygal.Line(style=DarkStyle,
@@ -63,7 +55,6 @@ def index(request):
     chart.add("2017", points_17.values())
     chart.add("2016", points_16.values())
     chart.add("2015", points_15.values())
-    chart.add("2014", points_14.values())
     chart.x_labels = range(1, 39)
     pts_chart = chart.render_data_uri()
 
