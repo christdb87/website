@@ -98,9 +98,11 @@ class UpdateCron(CronJobBase):
                     result = 'Not Played'
                 elif fix[i]['score']['fullTime']['awayTeam'] == fix[i]['score']['fullTime']['homeTeam']:
                     result = 'Draw'
-                elif (fix[i]['score']['fullTime']['homeTeam'] > fix[i]['score']['fullTime']['awayTeam']) and gameType == 'Home':
+                elif fix[i]['score']['fullTime']['homeTeam'] > fix[i]['score']['fullTime'][
+                    'awayTeam'] and gameType == 'Home':
                     result = 'Win'
-                elif (fix[i]['score']['fullTime']['awayTeam'] > fix[i]['score']['fullTime']['homeTeam']) and gameType == 'Away':
+                elif fix[i]['score']['fullTime']['awayTeam'] > fix[i]['score']['fullTime'][
+                    'homeTeam'] and gameType == 'Away':
                     result = 'Win'
                 else:
                     result = 'Loss'
@@ -120,12 +122,10 @@ class UpdateCron(CronJobBase):
 
                 print(fix[i]['matchday'])
 
-        print('fixtures updated')
-
         addseason(fixtures, response)
-        addseason_hist(fixtures17, response17)
         addseason_hist(fixtures16, response16)
         addseason_hist(fixtures15, response15)
+        addseason_hist(fixtures17, response17)
         addseason_hist(fixtures14, response14)
         addseason_hist(fixtures13, response13)
 
@@ -138,5 +138,3 @@ class UpdateCron(CronJobBase):
                                     points=tabstand[i]['points'],
                                     crestURL=tabstand[i]['team']['crestUrl'],
                                     matchesPlayed=tabstand[i]['playedGames'])
-
-        print('standing updated')
