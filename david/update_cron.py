@@ -26,17 +26,11 @@ class UpdateCron(CronJobBase):
         response15 = json.loads(connection.getresponse().read().decode())
         connection.request('GET', '/v2/competitions/2021/standings', None, headers)
         response_table = json.loads(connection.getresponse().read().decode())
-        connection.request('GET', '/v1/teams/73/fixtures?season=2014', None, headers)
-        response14 = json.loads(connection.getresponse().read().decode())
-        connection.request('GET', '/v1/teams/73/fixtures?season=2013', None, headers)
-        response13 = json.loads(connection.getresponse().read().decode())
 
         fixtures = response['matches']
         fixtures17 = response17['fixtures']
         fixtures16 = response16['fixtures']
         fixtures15 = response15['fixtures']
-        fixtures14 = response14['fixtures']
-        fixtures13 = response13['fixtures']
 
         Fixture.objects.all().delete()
         Standing.objects.all().delete()
@@ -126,8 +120,6 @@ class UpdateCron(CronJobBase):
         addseason_hist(fixtures16, response16)
         addseason_hist(fixtures15, response15)
         addseason_hist(fixtures17, response17)
-        addseason_hist(fixtures14, response14)
-        addseason_hist(fixtures13, response13)
 
         tabstand = response_table['standings'][0]['table']
 
