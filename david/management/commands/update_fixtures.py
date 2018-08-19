@@ -14,11 +14,11 @@ class Command(BaseCommand):
         headers = {'X-Auth-Token': os.environ['FOOTBALL_API_KEY'], 'X-Response-Control': 'minified'}
         connection.request('GET', '/v2/teams/73/matches', None, headers)
         response = json.loads(connection.getresponse().read().decode())
-        connection.request('GET', '/v2/teams/73/matches?season=2017', None, headers)
+        connection.request('GET', '/v1/teams/73/fixtures?season=2017', None, headers)
         response17 = json.loads(connection.getresponse().read().decode())
-        connection.request('GET', '/v2/teams/73/matches?season=2016', None, headers)
+        connection.request('GET', '/v1/teams/73/fixtures?season=2016', None, headers)
         response16 = json.loads(connection.getresponse().read().decode())
-        connection.request('GET', '/v2/teams/73/matches?season=2015', None, headers)
+        connection.request('GET', '/v1/teams/73/fixtures?season=2015', None, headers)
         response15 = json.loads(connection.getresponse().read().decode())
         connection.request('GET', '/v2/competitions/2021/standings', None, headers)
         response_table = json.loads(connection.getresponse().read().decode())
@@ -30,6 +30,48 @@ class Command(BaseCommand):
 
         Fixture.objects.all().delete()
         Standing.objects.all().delete()
+
+        def addseason_hist(fix, resp):
+            for i, val in enumerate(fix):
+
+                if fix[i]['homeTeamName'] == 'Tottenham Hotspur FC':
+                    opponent = fix[i]['awayTeamName']
+                else:
+                    opponent = fix[i]['homeTeamName']
+                if fix[i]['homeTeamName'] == 'Tottenham Hotspur FC':
+                    gameType = 'Home'
+                else:
+                    gameType = 'Away'
+                if fix[i]['status'] != 'FINISHED':
+                    result = 'Not Played'
+                elif fix[i]['result']['goalsAwayTeam'] == fix[i]['result']['goalsHomeTeam']:
+                    result = 'Draw'
+                elif fix[i]['result']['goalsHomeTeam'] > fix[i]['result']['goalsAwayTeam'] and gameType == 'Home':
+                    result = 'Win'
+                elif fix[i]['result']['goalsAwayTeam'] > fix[i]['result']['goalsHomeTeam'] and gameType == 'Away':
+                    result = 'Win'
+                else:
+                    result = 'Loss'
+                Fixture.objects.create(status=fix[i]['status'],
+                                       matchday=fix[i]['matchday'],
+                                       homeTeamName=fix[i]['homeTeamName'],
+                                       awayTeamName=fix[i]['awayTeamName'],
+                                       goalsAwayTeam=fix[i]['result']['goalsAwayTeam'],
+                                       goalsHomeTeam=fix[i]['result']['goalsHomeTeam'],
+                                       competitionId=fix[i]['competitionId'],
+                                       name=fix[i]['homeTeamName'] + " " + fix[i]['awayTeamName'],
+                                       opponent=opponent,
+                                       gameType=gameType,
+                                       result=result,
+                                       date=fix[i]['date'],
+                                       season=resp['season'])
+
+                print(fix[i]['status'], " ",
+                      fix[i]['matchday'], " ",
+                      fix[i]['homeTeamName'], " ",
+                      fix[i]['awayTeamName'], " ",
+                      fix[i]['result']['goalsAwayTeam'], " ",
+                      fix[i]['result']['goalsHomeTeam'])
 
         def addseason(fix, resp):
             for i, val in enumerate(fix):
@@ -69,9 +111,9 @@ class Command(BaseCommand):
                 print(fix[i]['matchday'])
 
         addseason(fixtures, response)
-        addseason(fixtures16, response16)
-        addseason(fixtures15, response15)
-        addseason(fixtures17, response17)
+        addseason_hist(fixtures16, response16)
+        addseason_hist(fixtures15, response15)
+        addseason_hist(fixtures17, response17)
 
         tabstand = response_table['standings'][0]['table']
 
