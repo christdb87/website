@@ -93,7 +93,7 @@ class UpdateCron(CronJobBase):
                                     position=tabstand[i]['position'],
                                     goalDifference=tabstand[i]['goalDifference'],
                                     points=tabstand[i]['points'],
-                                    crestURL=tabstand[i]['team']['crestURL'],
+                                    crestURL=tabstand[i]['team']['crestUrl'],
                                     matchesPlayed=tabstand[i]['playedGames'])
 
         print('standing updated')

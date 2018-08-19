@@ -80,7 +80,7 @@ class Command(BaseCommand):
                                     position=tabstand[i]['position'],
                                     goalDifference=tabstand[i]['goalDifference'],
                                     points=tabstand[i]['points'],
-                                    crestURL=tabstand[i]['team']['crestURL'],
+                                    crestURL=tabstand[i]['team']['crestUrl'],
                                     matchesPlayed=tabstand[i]['playedGames'])
 
             # code to use pyton 3 to get data
