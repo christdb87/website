@@ -16,7 +16,7 @@ class UpdateCron(CronJobBase):
 
         connection = httplib.HTTPConnection('api.football-data.org')
         headers = {'X-Auth-Token': os.environ['FOOTBALL_API_KEY'], 'X-Response-Control': 'minified'}
-        connection.request('GET', '/v2/teams/73/fixtures', None, headers)
+        connection.request('GET', '/v2/teams/73/matches', None, headers)
         response = json.loads(connection.getresponse().read().decode())
         connection.request('GET', '/v2/teams/73/matches?season=2017', None, headers)
         response17 = json.loads(connection.getresponse().read().decode())
