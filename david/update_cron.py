@@ -67,7 +67,7 @@ class UpdateCron(CronJobBase):
                                        awayTeamName=fix[i]['awayTeam']['name'],
                                        goalsAwayTeam=fix[i]['score']['fullTime']['awayTeam'],
                                        goalsHomeTeam=fix[i]['score']['fullTime']['homeTeam'],
-                                       competitionId=fix[i]['season']['competitionId']['id'],
+                                       competitionId=fix[i]['season']['id'],
                                        name=fix[i]['homeTeam']['name'] + " " + fix[i]['awayTeam']['name'],
                                        opponent=opponent,
                                        gameType=gameType,
