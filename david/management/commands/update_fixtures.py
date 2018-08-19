@@ -24,9 +24,9 @@ class Command(BaseCommand):
         response_table = json.loads(connection.getresponse().read().decode())
 
         fixtures = response['matches']
-        fixtures17 = response17['matches']
-        fixtures16 = response16['matches']
-        fixtures15 = response15['matches']
+        fixtures17 = response17['fixtures']
+        fixtures16 = response16['fixtures']
+        fixtures15 = response15['fixtures']
 
         Fixture.objects.all().delete()
         Standing.objects.all().delete()
