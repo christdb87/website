@@ -58,7 +58,7 @@ def index(request):
     chart = pygal.Line(style=DarkStyle,
                        x_title="Matchday",
                        height=500)
-    chart.title = "Spurs points over past 5 seasons"
+    chart.title = "Spurs points over past 4 seasons"
     chart.add("2018", points_18.values())
     chart.add("2017", points_17.values())
     chart.add("2016", points_16.values())
@@ -73,7 +73,7 @@ def index(request):
 
     if matches18.filter(status='TIMED').count() > 0:
         next_game = matches18.filter(status='TIMED')[0]
-    else: next_game = matches18.filter(status='TIMED')
+    else: next_game = matches18.filter(status='SCHEDULED').order_by('matchday')[0]
 
     spurspos = Standing.objects.filter(teamName='Tottenham Hotspur FC')[0].position
     table = Standing.objects.filter(position__in=range(spurspos - 3, spurspos + 4))
