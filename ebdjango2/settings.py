@@ -27,7 +27,7 @@ if 'RDS_HOSTNAME' in os.environ:
 else:
     DEBUG = True
 
-ALLOWED_HOSTS = [os.environ['DJANGO_ALLOWED_AWS'], u'davidbchrist.com', os.environ['DJANGO_ALLOWED_LOCAL']]
+ALLOWED_HOSTS = [os.environ['DJANGO_ALLOWED_AWS'], u'davidbchrist.com', u'www.davidbchrist.com', os.environ['DJANGO_ALLOWED_LOCAL']]
 
 # Application definition
 
