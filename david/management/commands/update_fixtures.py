@@ -13,7 +13,7 @@ class Command(BaseCommand):
         connection = httplib.HTTPConnection('api.football-data.org')
         headers = {'X-Auth-Token': os.environ['FOOTBALL_API_KEY'], 'X-Response-Control': 'minified'}
         connection.request('GET', '/v2/teams/73/matches', None, headers)
-        response = json.loads(connection.getresponse().read().decode())
+        response = json.loads(connection.getresponse().read())
         connection.request('GET', '/v1/teams/73/fixtures?season=2017', None, headers)
         response17 = json.loads(connection.getresponse().read().decode())
         connection.request('GET', '/v1/teams/73/fixtures?season=2016', None, headers)
