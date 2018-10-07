@@ -64,7 +64,10 @@ def index(request):
 
     if matches18.filter(status='TIMED').count() > 0:
         next_game = matches18.filter(status='TIMED')[0]
-    else: next_game = matches18.filter(status='SCHEDULED').order_by('matchday')[0]
+    elif matches18.filter(status='SCHEDULED').count() > 0:
+        next_game = matches18.filter(status='SCHEDULED').order_by('matchday')[0]
+    else:
+        next_game = None
 
     spurspos = Standing.objects.filter(teamName='Tottenham Hotspur FC')[0].position
     table = Standing.objects.filter(position__in=range(spurspos - 3, spurspos + 4))
